@@ -1,0 +1,5 @@
+{
+  "cameras": ["FHAZ", "RHAZ", "MAST", "CHEMCAM", "MAHLI", "MARDI", "NAVCAM"],
+  "unitTime": "sol",
+  "time": "1000"
+}
