@@ -21,6 +21,7 @@
         <aspectj.version>1.8.10</aspectj.version>
         <owner.java8.version>1.0.9</owner.java8.version>
         <jackson.annotations.version>2.9.0</jackson.annotations.version>
+        <retrofit.version>2.3.0</retrofit.version>
     </properties>
 
     <dependencies>
@@ -98,6 +99,17 @@
             <artifactId>allure-maven-plugin</artifactId>
             <version>${allure.plugin.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.squareup.retrofit2</groupId>
+            <artifactId>retrofit</artifactId>
+            <version>${retrofit.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.squareup.retrofit2</groupId>
+            <artifactId>converter-jackson</artifactId>
+            <version>${retrofit.version}</version>
+        </dependency>
+
     </dependencies>
 
     <reporting>
